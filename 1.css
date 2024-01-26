@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 30px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 70px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links li a:hover {
+    color: #ffcc00;
+  }
+  
+  .data-section {
+    background-image: url('photo/pexels-mike-1171084\ \(1\).jpg'); 
+    background-size: cover;
+    padding: 50px 0;
+    color: #fff;
+  }
+  
+  .data-section h2 {
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .container form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(7, 205, 0, 0);
+    padding: 50px;
+  }
+  
+  .container form label {
+    color: #fff;
+  }
+  
+  .container form input[type="text"],
+  .container form input[type="number"],
+  .container form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+  }
+  
+  .container form input[type="submit"] {
+    background-color: #ffcc00;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container form input[type="submit"]:hover {
+    background-color: #ffdb4d;
+  }
+
+.content-container {
+    display: flex;
+  }
+  
+  .players-section {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .data-section {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .player-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .player-images img {
+    width: 100%;
+    height: auto;
+  }
+.player-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, background-color 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .player-img:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+  }
+  
+  
